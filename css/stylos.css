@@ -18,6 +18,11 @@ ul {
   color: white;
 }
 
+label {
+  background-color: greenyellow;
+  border: solid black 5px;
+}
+
 header {
   width: 100%;
   height: 20;
@@ -44,7 +49,7 @@ header {
   display: flex;
   flex-direction: row;
   padding-top: 8px;
-  gap: 5px;
+  gap: 10px;
 }
 
 .d-flex {
@@ -73,6 +78,99 @@ header {
   width: 250px;
   height: 250px;
   border: groove pink 5px;
+}
+
+.main-cargadores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+}
+.main-cargadores label {
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+}
+.main-cargadores .btn-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+.main-cargadores .imagenes-de-cargadores {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(4, 200px);
+}
+.main-cargadores .imagenes-de-cargadores .item {
+  width: 100px;
+  height: 100px;
+  border: solid greenyellow;
+}
+
+.main-accesorios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+}
+.main-accesorios label {
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+}
+.main-accesorios .btn-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+.main-accesorios .imagenes-de-accesorios {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(4, 200px);
+}
+.main-accesorios .imagenes-de-accesorios .item {
+  width: 100px;
+  height: 100px;
+  border: solid greenyellow;
+}
+
+.main-auriculares {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+}
+.main-auriculares label {
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+}
+.main-auriculares .btn-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+.main-auriculares .imagenes-de-auriculares {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(4, 200px);
+}
+.main-auriculares .imagenes-de-auriculares .item {
+  width: 100px;
+  height: 100px;
+  border: solid greenyellow;
 }
 
 footer {
