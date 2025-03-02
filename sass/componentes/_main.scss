@@ -94,3 +94,28 @@ label{width: 200px;
     height: 100px;
     border: solid greenyellow
 }}}
+
+.main-contacto{
+    ul{display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 30px;
+        font-size: 20px
+    }
+    #preguntas-frecuentes{
+        color: $burnt-sienna;
+        text-align: center;
+        p{
+            font-size: 25px;
+        }
+        .maps{ width: 80%;
+
+        }
+    }
+    img{
+        width: 50%;
+    height: 50%;    }
+}
+

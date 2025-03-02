@@ -13,9 +13,11 @@ body{width: 100%;
     background-position: center
 
 }
-ul{color:white}
-
-label{
-    background-color: greenyellow;
-    border: solid black 5px
+ul{color:white;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;}
+a{text-decoration: none;
+    color: $sunset;
 }
