@@ -29,6 +29,18 @@ a {
   color: rgb(242, 204, 143);
 }
 
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+button {
+  width: 200px;
+}
+
 header {
   width: 100%;
   height: 20;
@@ -114,7 +126,7 @@ header {
 .main-cargadores .imagenes-de-cargadores {
   display: grid;
   grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat(4, 200px);
+  grid-template-rows: repeat(3, 200px);
 }
 .main-cargadores .imagenes-de-cargadores .item {
   width: 100px;
@@ -145,18 +157,20 @@ header {
 .main-accesorios .imagenes-de-accesorios {
   display: grid;
   grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat(4, 200px);
+  grid-template-rows: repeat(2, 200px);
+  gap: 30px;
+  padding-right: 20px;
 }
 .main-accesorios .imagenes-de-accesorios .item {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border: solid greenyellow;
 }
 
 .main-auriculares {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   padding: 30px;
 }
@@ -168,6 +182,7 @@ header {
   padding: 5px;
 }
 .main-auriculares .btn-group {
+  padding-right: 30px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -175,8 +190,8 @@ header {
 }
 .main-auriculares .imagenes-de-auriculares {
   display: grid;
-  grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat(4, 200px);
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(4, 250px);
 }
 .main-auriculares .imagenes-de-auriculares .item {
   width: 100px;
@@ -198,6 +213,7 @@ header {
   text-align: center;
 }
 .main-contacto #preguntas-frecuentes p {
+  padding: 30px;
   font-size: 25px;
 }
 .main-contacto #preguntas-frecuentes .maps {

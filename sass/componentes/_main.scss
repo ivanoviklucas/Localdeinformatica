@@ -35,7 +35,7 @@ label{width: 200px;
 .imagenes-de-cargadores{
     display: grid;
     grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(4,200px);
+    grid-template-rows: repeat(3,200px);
    .item{width: 100px;
     height: 100px;
     border: solid greenyellow
@@ -62,16 +62,18 @@ label{width: 200px;
 .imagenes-de-accesorios{
     display: grid;
     grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(4,200px);
-   .item{width: 100px;
-    height: 100px;
+    grid-template-rows: repeat(2,200px);
+    gap: 30px;
+    padding-right: 20px;
+   .item{width: 200px;
+    height: 200px;
     border: solid greenyellow
 }}}
 
 .main-auriculares{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     padding:30px;
 label{width: 200px;
@@ -81,6 +83,7 @@ label{width: 200px;
     padding: 5px;
 }
 .btn-group{
+    padding-right: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -88,8 +91,8 @@ label{width: 200px;
 }
 .imagenes-de-auriculares{
     display: grid;
-    grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(4,200px);
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(4,250px);
    .item{width: 100px;
     height: 100px;
     border: solid greenyellow
@@ -107,7 +110,7 @@ label{width: 200px;
     #preguntas-frecuentes{
         color: $burnt-sienna;
         text-align: center;
-        p{
+        p{padding:30px;
             font-size: 25px;
         }
         .maps{ width: 80%;
