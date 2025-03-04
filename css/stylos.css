@@ -125,12 +125,13 @@ header {
 }
 .main-cargadores .imagenes-de-cargadores {
   display: grid;
-  grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat(3, 200px);
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(3, 300px);
+  justify-content: center;
 }
 .main-cargadores .imagenes-de-cargadores .item {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 150px;
   border: solid greenyellow;
 }
 
