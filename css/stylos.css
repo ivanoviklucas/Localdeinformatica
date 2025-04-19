@@ -43,7 +43,7 @@ button {
 
 header {
   width: 100%;
-  height: 20;
+  height: 20%;
 }
 
 .navbar {
@@ -74,13 +74,11 @@ header {
   font-weight: weight;
   font-style: normal;
 }
-
-.d-flex {
+.container-fluid .d-flex {
   height: 4vh;
   padding-bottom: 5px;
 }
-
-.btn-outline-success {
+.container-fluid .btn-outline-success {
   height: 3.5vh;
   width: 10vw;
   display: flex;
@@ -240,6 +238,94 @@ footer {
 footer img {
   width: 80px;
   height: 80px;
+}
+
+@media (min-width: 360px) and (max-width: 550px) {
+  header {
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container-fluid {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #16043D !important;
+    height: 200px;
+    width: 85vw;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .container-fluid ul {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    gap: 10px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 10px;
+  }
+  .container-fluid .d-flex {
+    height: 4vh;
+    width: 40vw;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    gap: 20px;
+  }
+  .container-fluid .btn-outline-success {
+    height: 3.5vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+  }
+  .main-index {
+    width: 90vw;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 400px);
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    row-gap: 5px;
+  }
+  .main-index div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .main-index img {
+    width: 100px;
+    height: 100px;
+    border: groove pink 5px;
+  }
+  footer {
+    width: 86%;
+    border-radius: 40px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(105, 1, 169);
+    background: linear-gradient(0deg, rgba(105, 1, 169, 0.9808298319) 0%, rgb(21, 4, 57) 84%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  footer img {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 /*# sourceMappingURL=stylos.css.map */
