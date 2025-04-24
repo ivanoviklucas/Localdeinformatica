@@ -341,7 +341,7 @@ footer img {
   .main-accesorios .imagenes-de-accesorios {
     display: grid;
     grid-template-columns: repeat(1, 200px);
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(200px, auto);
     gap: 30px;
   }
   .main-accesorios .imagenes-de-accesorios .item {
@@ -349,7 +349,8 @@ footer img {
     height: 200px;
   }
   .main-accesorios .imagenes-de-accesorios .item-especial {
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
   .main-auriculares {
     display: flex;
@@ -370,7 +371,11 @@ footer img {
   .main-auriculares .imagenes-de-auriculares {
     display: grid;
     grid-template-columns: repeat(1, 250px);
-    grid-template-rows: repeat(4, 250px);
+    grid-template-rows: repeat(auto, 250px);
+  }
+  .main-auriculares .imagenes-de-auriculares .item {
+    width: 200px;
+    height: 200px;
   }
   .main-cargadores {
     display: flex;
@@ -395,8 +400,8 @@ footer img {
     grid-template-rows: repeat(auto fill, 200px);
   }
   .main-cargadores .imagenes-de-cargadores .item {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
 }
 

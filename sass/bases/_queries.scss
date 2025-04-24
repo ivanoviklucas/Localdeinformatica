@@ -113,7 +113,7 @@
     .imagenes-de-accesorios {
         display: grid;
         grid-template-columns: repeat(1, 200px);
-        grid-template-rows: repeat(2, auto);
+        grid-template-rows: repeat(200px, auto);
         gap: 30px; 
 
         .item {
@@ -122,7 +122,8 @@
         }
         
         .item-especial{
-          text-align: center;
+          display: flex;
+          justify-content: center;
         }
       }
     }
@@ -143,8 +144,10 @@
   .imagenes-de-auriculares{
       display: grid;
       grid-template-columns: repeat(1, 250px);
-      grid-template-rows: repeat(4,250px);
-  }}
+      grid-template-rows: repeat(auto,250px);
+      .item{width: 200px;
+        height: 200px;
+  }}}
 
   .main-cargadores{
     display:flex;
@@ -165,6 +168,7 @@ label{width: 200px;
     display: grid;
     grid-template-columns: repeat(1, 200px);
     grid-template-rows: repeat(auto fill, 200px);
-   .item{width: 150px;
-    height: 150px;
-  }}}}
+   .item{width: 200px;
+    height: 200px;
+  }}}
+}
